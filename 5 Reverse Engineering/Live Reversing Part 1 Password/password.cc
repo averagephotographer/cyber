@@ -34,7 +34,7 @@ int main()
 
 	cout << "Password: ";
 	getline(cin, password);
-//	cout << hash(password) << endl;
+//	cout << hash(3password) << endl;
 //	return 0;
 
 	if (hash(password) == VALID_HASH)
